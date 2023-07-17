@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 function Navbar() {
   return (
     <div className="bg-neutral-900 flex justify-between px-20 py-4">
-      <Link to="/" className="text-white font-bold">
-        <h1 className="text-xl">G_R</h1>
+      <Link to="/" className="text-white font-bold ">
+        <h1 className="text-">G_R</h1>
       </Link>
 
       <ul className="flex gap-x-1">
@@ -20,3 +20,4 @@ function Navbar() {
 }
 
 export default Navbar;
+

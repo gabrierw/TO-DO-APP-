@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="bg-stone-950 h-screen">
       <Navbar />
-      <div className="container mx-auto py-4 px-20">
+      <div className="container mx-auto py-4 px-20 responsive">
         <TaskContextProvider>
           <Routes>
             <Route path="/" element={<TasksPage />} />
